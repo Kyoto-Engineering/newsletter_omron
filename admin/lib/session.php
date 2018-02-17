@@ -38,7 +38,7 @@
      public static function checkLogin(){
       self::init();
       if (self::get("login")== true) {
-       header("Location:index.php");
+       echo "<script>window.location = 'index.php'</script>";
       }
      }
 

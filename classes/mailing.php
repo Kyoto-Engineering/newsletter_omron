@@ -48,8 +48,8 @@ class Mailer
 	$headers .= "Content-Type: multipart/alternative";
 	$mail->AddCustomHeader($headers);
 	$mail->WordWrap = 50;                              // set word wrap
-	$mail->AddEmbeddedImage("GM Community Profile Image.jpg", "my-attach", "image/jpeg");
-	$mail->Body = '<img alt="PHPMailer" src="cid:my-attach">  ';
+	$mail->AddEmbeddedImage("GM Community Profile Image.jpg", $descrip, "image/jpeg");
+	$mail->Body = '<img alt="PHPMailer" src= $descrip>  ';
 	$mail->IsHTML(true);                               // send as HTML
 	$mail->Subject  =  "image !!!!!!!!";
 	$mail->AltBody  =  "This is the text-only body";

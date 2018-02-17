@@ -1,4 +1,7 @@
-<?php include 'header_imagelinks.php' ?>
+<?php include 'header.php' ?>
+<?php include 'navbar.php' ?>
+
+
 <?php include_once "classes/view.php"; ?>
 
 <!DOCTYPE html>
@@ -78,15 +81,7 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand" href="index.php">Home</a>
-        
-        <div class="collapse navbar-collapse" id="navbarResponsive">
 
-        </div>
-      </div>
-    </nav>
 
     <div class="container gallery-container">
 

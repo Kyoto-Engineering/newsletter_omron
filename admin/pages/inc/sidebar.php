@@ -24,6 +24,9 @@
                                 <li>
                                     <a href="InsertVideo.php">Insert Video</a>
                                 </li>
+                                 <li>
+                                    <a href="insertPost.php">Insert Post</a>
+                                </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
@@ -52,6 +55,24 @@
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
+                        <li>
+                            <a href="#"><i class="fa fa-user" aria-hidden="true"></i> FileStoring<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="register.php">Create User</a>
+                                </li>
+
+                                 <li>
+                                    <a href="insertf.php">Insert Files</a>
+                                </li>
+                                 <li>
+                                    <a href="clientlist.php">Client List</a>
+                                </li>
+                                <li>
+                                    <a href="commonFiles.php">Upload Common Files</a>
+                                </li>
+                                </ul>
+                                </li>
                          <li>
                             <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>  P-Blasting<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">

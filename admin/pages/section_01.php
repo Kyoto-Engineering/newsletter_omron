@@ -12,10 +12,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
+                        <span style="color:green">
                         <?php if(isset($send)){
                             echo $send;
                             }?>
-
+                        </span>
                     </h1>
                 </div> 
                 <!-- /.col-lg-12 -->
@@ -28,7 +29,7 @@
                 <br>
                 
                 <p>
-                    <label>Job Description </label>
+                    <!--<label>Job Description </label>-->
                     <textarea name="description" id="text" placeholder="Insert Job Description...."></textarea>
                             <script> CKEDITOR.replace( 'text' );</script>
                 </p>

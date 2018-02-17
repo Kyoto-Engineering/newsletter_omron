@@ -3,7 +3,7 @@ include_once ($filepath.'/../lib/session.php');
 	Session::checkLogin();
 
 include_once ($filepath.'/../lib/database.php');
-include_once ($filepath.'/../helpers/format.php');
+include_once ($filepath.'/../helper/formate.php');
 ?>
 
 <?php  /**
@@ -16,7 +16,7 @@ class Signup
 	function __construct()
 	{
 		$this->db = new Database();
-		$this->fm = new Format();
+		$this->fm = new Formate();
 	}
 
 	public function adminSignin($data){
