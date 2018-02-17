@@ -1,0 +1,116 @@
+[26-Dec-2017 06:25:58 UTC] PHP Warning:  include(../lib/Session.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[26-Dec-2017 06:25:58 UTC] PHP Warning:  include(../lib/Session.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[26-Dec-2017 06:25:58 UTC] PHP Warning:  include(): Failed opening '../lib/Session.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[26-Dec-2017 06:25:58 UTC] PHP Fatal error:  Class 'Session' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 3
+[26-Dec-2017 06:26:51 UTC] PHP Warning:  include(../lib/Session.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[26-Dec-2017 06:26:51 UTC] PHP Warning:  include(../lib/Session.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[26-Dec-2017 06:26:51 UTC] PHP Warning:  include(): Failed opening '../lib/Session.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[26-Dec-2017 06:26:51 UTC] PHP Fatal error:  Class 'Session' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 3
+[26-Dec-2017 06:27:23 UTC] PHP Warning:  include(../lib/Session.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[26-Dec-2017 06:27:23 UTC] PHP Warning:  include(../lib/Session.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[26-Dec-2017 06:27:23 UTC] PHP Warning:  include(): Failed opening '../lib/Session.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[26-Dec-2017 06:27:23 UTC] PHP Fatal error:  Class 'Session' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 3
+[26-Dec-2017 06:28:35 UTC] PHP Warning:  include_once(/home2/kealcom/newsletter.keal.com.bd/admin/classes/../lib/Session.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/classes/alogin.php on line 2
+[26-Dec-2017 06:28:35 UTC] PHP Warning:  include_once(): Failed opening '/home2/kealcom/newsletter.keal.com.bd/admin/classes/../lib/Session.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/classes/alogin.php on line 2
+[26-Dec-2017 06:28:35 UTC] PHP Fatal error:  Class 'Session' not found in /home2/kealcom/newsletter.keal.com.bd/admin/classes/alogin.php on line 3
+[26-Dec-2017 06:29:03 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'kealcom'@'localhost' to database 'db_newsletter' in /home2/kealcom/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[26-Dec-2017 06:29:32 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'kealcom'@'localhost' to database 'db_newsletter' in /home2/kealcom/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[26-Dec-2017 06:31:12 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'kealcom'@'localhost' to database 'db_newsletter' in /home2/kealcom/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[26-Dec-2017 06:31:36 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'kealcom'@'localhost' to database 'db_newsletter' in /home2/kealcom/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[26-Dec-2017 06:31:36 UTC] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home2/kealcom/newsletter.keal.com.bd/admin/classes/alogin.php on line 26
+[26-Dec-2017 06:31:36 UTC] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home2/kealcom/newsletter.keal.com.bd/admin/classes/alogin.php on line 27
+[26-Dec-2017 06:32:09 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'kealcom'@'localhost' to database 'db_newsletter' in /home2/kealcom/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[26-Dec-2017 06:32:09 UTC] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home2/kealcom/newsletter.keal.com.bd/admin/classes/alogin.php on line 26
+[26-Dec-2017 06:32:09 UTC] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home2/kealcom/newsletter.keal.com.bd/admin/classes/alogin.php on line 27
+[26-Dec-2017 06:32:49 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'kealcom'@'localhost' to database 'db_newsletter' in /home2/kealcom/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[26-Dec-2017 06:33:13 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'kealcom'@'localhost' to database 'db_newsletter' in /home2/kealcom/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[26-Dec-2017 06:33:13 UTC] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home2/kealcom/newsletter.keal.com.bd/admin/classes/alogin.php on line 26
+[26-Dec-2017 06:33:13 UTC] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home2/kealcom/newsletter.keal.com.bd/admin/classes/alogin.php on line 27
+[26-Dec-2017 06:34:50 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'kealcom'@'localhost' to database 'db_newsletter' in /home2/kealcom/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[26-Dec-2017 06:35:51 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'kealcom'@'localhost' to database 'db_newsletter' in /home2/kealcom/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[26-Dec-2017 06:36:15 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'kealcom'@'localhost' to database 'db_newsletter' in /home2/kealcom/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[26-Dec-2017 06:36:15 UTC] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home2/kealcom/newsletter.keal.com.bd/admin/classes/alogin.php on line 26
+[26-Dec-2017 06:36:15 UTC] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home2/kealcom/newsletter.keal.com.bd/admin/classes/alogin.php on line 27
+[26-Dec-2017 08:11:33 UTC] PHP Fatal error:  Cannot redeclare class Format in /home2/kealcom/newsletter.keal.com.bd/helpers/format.php on line 3
+[26-Dec-2017 10:24:40 UTC] PHP Notice:  Undefined variable: fm in /home2/kealcom/newsletter.keal.com.bd/admin/pages/controlimage.php on line 45
+[26-Dec-2017 10:24:40 UTC] PHP Fatal error:  Call to a member function textshorten() on null in /home2/kealcom/newsletter.keal.com.bd/admin/pages/controlimage.php on line 45
+[26-Dec-2017 10:26:39 UTC] PHP Notice:  Undefined variable: fm in /home2/kealcom/newsletter.keal.com.bd/admin/pages/controlimage.php on line 45
+[26-Dec-2017 10:26:39 UTC] PHP Fatal error:  Call to a member function textShorten() on null in /home2/kealcom/newsletter.keal.com.bd/admin/pages/controlimage.php on line 45
+[27-Dec-2017 05:33:17 UTC] PHP Notice:  Undefined variable: pd in /home2/kealcom/newsletter.keal.com.bd/admin/pages/controlimage.php on line 12
+[27-Dec-2017 05:33:17 UTC] PHP Fatal error:  Call to a member function deldelpicByid() on null in /home2/kealcom/newsletter.keal.com.bd/admin/pages/controlimage.php on line 12
+[28-Dec-2017 06:51:36 UTC] PHP Fatal error:  Call to undefined method Picture::getuserlist() in /home2/kealcom/newsletter.keal.com.bd/admin/pages/step_1.php on line 49
+[01-Jan-2018 09:57:49 UTC] PHP Warning:  include(../lib/Session.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[01-Jan-2018 09:57:49 UTC] PHP Warning:  include(../lib/Session.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[01-Jan-2018 09:57:49 UTC] PHP Warning:  include(): Failed opening '../lib/Session.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[01-Jan-2018 09:57:49 UTC] PHP Fatal error:  Class 'Session' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 3
+[01-Jan-2018 09:57:57 UTC] PHP Warning:  include(../lib/Session.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[01-Jan-2018 09:57:57 UTC] PHP Warning:  include(../lib/Session.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[01-Jan-2018 09:57:57 UTC] PHP Warning:  include(): Failed opening '../lib/Session.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 2
+[01-Jan-2018 09:57:57 UTC] PHP Fatal error:  Class 'Session' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/inc/header.php on line 3
+[10-Jan-2018 04:16:41 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'kealcom'@'localhost' (using password: YES) in /home2/kealcom/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[04-Feb-2018 07:11:42 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/kealcom/newsletter.keal.com.bd/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[04-Feb-2018 07:12:03 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/kealcom/newsletter.keal.com.bd/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[04-Feb-2018 07:12:03 UTC] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home2/kealcom/newsletter.keal.com.bd/newsletter.keal.com.bd/admin/classes/alogin.php on line 26
+[04-Feb-2018 07:12:03 UTC] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home2/kealcom/newsletter.keal.com.bd/newsletter.keal.com.bd/admin/classes/alogin.php on line 27
+[04-Feb-2018 07:12:30 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/kealcom/newsletter.keal.com.bd/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[04-Feb-2018 07:12:30 UTC] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home2/kealcom/newsletter.keal.com.bd/newsletter.keal.com.bd/admin/classes/alogin.php on line 26
+[04-Feb-2018 07:12:30 UTC] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home2/kealcom/newsletter.keal.com.bd/newsletter.keal.com.bd/admin/classes/alogin.php on line 27
+[04-Feb-2018 07:51:47 UTC] PHP Notice:  Undefined index: links in /home2/kealcom/newsletter.keal.com.bd/classes/picture.php on line 58
+[04-Feb-2018 07:53:14 UTC] PHP Notice:  Undefined index: links in /home2/kealcom/newsletter.keal.com.bd/classes/picture.php on line 58
+[04-Feb-2018 08:20:58 UTC] PHP Notice:  Undefined index: fileName in /home2/kealcom/newsletter.keal.com.bd/classes/picture.php on line 23
+[04-Feb-2018 08:20:58 UTC] PHP Notice:  Undefined variable: fileName in /home2/kealcom/newsletter.keal.com.bd/classes/picture.php on line 27
+[04-Feb-2018 08:21:22 UTC] PHP Notice:  Undefined index: fileName in /home2/kealcom/newsletter.keal.com.bd/classes/picture.php on line 23
+[04-Feb-2018 08:21:22 UTC] PHP Notice:  Undefined variable: fileName in /home2/kealcom/newsletter.keal.com.bd/classes/picture.php on line 27
+[04-Feb-2018 08:22:17 UTC] PHP Notice:  Undefined index: fileName in /home2/kealcom/newsletter.keal.com.bd/classes/picture.php on line 23
+[04-Feb-2018 08:22:17 UTC] PHP Notice:  Undefined variable: fileName in /home2/kealcom/newsletter.keal.com.bd/classes/picture.php on line 27
+[04-Feb-2018 08:24:02 UTC] PHP Notice:  Undefined index: fileName in /home2/kealcom/newsletter.keal.com.bd/classes/picture.php on line 23
+[04-Feb-2018 08:24:02 UTC] PHP Notice:  Undefined variable: fileName in /home2/kealcom/newsletter.keal.com.bd/classes/picture.php on line 27
+[04-Feb-2018 08:24:48 UTC] PHP Notice:  Undefined index: fileName in /home2/kealcom/newsletter.keal.com.bd/classes/picture.php on line 23
+[04-Feb-2018 08:24:48 UTC] PHP Notice:  Undefined variable: fileName in /home2/kealcom/newsletter.keal.com.bd/classes/picture.php on line 27
+[06-Feb-2018 10:05:33 UTC] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home2/kealcom/newsletter.keal.com.bd/admin/lib/database.php on line 24
+[11-Feb-2018 09:45:18 UTC] PHP Warning:  include_once(../Classes/reglog.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:45:19 UTC] PHP Warning:  include_once(): Failed opening '../Classes/reglog.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:45:19 UTC] PHP Fatal error:  Class 'Signup' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 7
+[11-Feb-2018 09:45:27 UTC] PHP Warning:  include_once(../Classes/reglog.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:45:27 UTC] PHP Warning:  include_once(): Failed opening '../Classes/reglog.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:45:27 UTC] PHP Fatal error:  Class 'Signup' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 7
+[11-Feb-2018 09:45:30 UTC] PHP Warning:  include_once(../Classes/reglog.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:45:30 UTC] PHP Warning:  include_once(): Failed opening '../Classes/reglog.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:45:30 UTC] PHP Fatal error:  Class 'Signup' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 7
+[11-Feb-2018 09:46:02 UTC] PHP Warning:  include_once(../Classes/reglog.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:46:02 UTC] PHP Warning:  include_once(): Failed opening '../Classes/reglog.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:46:02 UTC] PHP Fatal error:  Class 'Signup' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 7
+[11-Feb-2018 09:46:16 UTC] PHP Warning:  include_once(../Classes/reglog.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:46:16 UTC] PHP Warning:  include_once(): Failed opening '../Classes/reglog.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:46:16 UTC] PHP Fatal error:  Class 'Signup' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 7
+[11-Feb-2018 09:46:26 UTC] PHP Warning:  include_once(../Classes/reglog.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:46:26 UTC] PHP Warning:  include_once(): Failed opening '../Classes/reglog.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:46:26 UTC] PHP Fatal error:  Class 'Signup' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 7
+[11-Feb-2018 09:50:36 UTC] PHP Warning:  include_once(../Classes/reglog.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:50:36 UTC] PHP Warning:  include_once(): Failed opening '../Classes/reglog.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:50:36 UTC] PHP Fatal error:  Class 'Signup' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 7
+[11-Feb-2018 09:51:23 UTC] PHP Warning:  include_once(../lib/Database.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
+[11-Feb-2018 09:51:23 UTC] PHP Warning:  include_once(): Failed opening '../lib/Database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
+[11-Feb-2018 09:51:23 UTC] PHP Fatal error:  Class 'Database' not found in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 12
+[11-Feb-2018 09:53:35 UTC] PHP Warning:  include_once(../lib/Database.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
+[11-Feb-2018 09:53:35 UTC] PHP Warning:  include_once(): Failed opening '../lib/Database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
+[11-Feb-2018 09:53:35 UTC] PHP Fatal error:  Class 'Database' not found in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 12
+[11-Feb-2018 09:54:03 UTC] PHP Fatal error:  Class 'Signup' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 7
+[11-Feb-2018 09:55:03 UTC] PHP Warning:  include_once(../lib/Database.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
+[11-Feb-2018 09:55:03 UTC] PHP Warning:  include_once(): Failed opening '../lib/Database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
+[11-Feb-2018 09:55:38 UTC] PHP Warning:  include_once(../lib/Database.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
+[11-Feb-2018 09:55:38 UTC] PHP Warning:  include_once(): Failed opening '../lib/Database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
+[11-Feb-2018 09:55:38 UTC] PHP Fatal error:  Class 'Database' not found in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 12
+[11-Feb-2018 09:56:29 UTC] PHP Warning:  include_once(../lib/Database.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
+[11-Feb-2018 09:56:29 UTC] PHP Warning:  include_once(): Failed opening '../lib/Database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
+[11-Feb-2018 09:56:29 UTC] PHP Fatal error:  Class 'Database' not found in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 12
+[11-Feb-2018 09:58:05 UTC] PHP Warning:  include_once(classes/reglog.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:58:05 UTC] PHP Warning:  include_once(): Failed opening 'classes/reglog.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:58:05 UTC] PHP Fatal error:  Class 'Signup' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 7
+[11-Feb-2018 09:59:37 UTC] PHP Warning:  include_once(classes/reglog.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:59:37 UTC] PHP Warning:  include_once(): Failed opening 'classes/reglog.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 3
+[11-Feb-2018 09:59:37 UTC] PHP Fatal error:  Class 'Signup' not found in /home2/kealcom/newsletter.keal.com.bd/admin/pages/register.php on line 7
+[11-Feb-2018 10:02:07 UTC] PHP Warning:  include_once(../lib/Database.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
+[11-Feb-2018 10:02:07 UTC] PHP Warning:  include_once(): Failed opening '../lib/Database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
+[11-Feb-2018 10:02:07 UTC] PHP Fatal error:  Class 'Database' not found in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 12
+[15-Feb-2018 11:09:47 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/kealcom/newsletter.keal.com.bd/admin/lib/session.php on line 46
