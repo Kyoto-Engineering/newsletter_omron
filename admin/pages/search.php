@@ -4,6 +4,16 @@
 <?php
     $post = new Post();
 ?>
+ <?php
+    if(!isset($_GET['search']) || $_GET['search'] == NULL){
+      echo "<script>window.location='404.php'<script/>";
+    header("Location:404.php");
+    }else {
+      $search = $_GET['search'];
+      }
+  
+  ?>
+    
  <?php 
     $per_page = 10;
     if (isset($_GET["page"])) {
@@ -13,7 +23,8 @@
     }
     $start_form = ($page-1)*$per_page;
   ?>
-        <div id="page-wrapper">
+
+     <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Dashboard</h1>
@@ -38,7 +49,7 @@
   </thead>
   <tbody>
     <?php
-    $getAll = $post->getAllclient();
+    $getAll = $post->getAllclientsearch($search);
     if ($getAll) {
         $i = "0";
     while ($result = $getAll->fetch_assoc()) {
@@ -49,7 +60,7 @@
     ?>
     <tr>
       <th scope="row"><?php echo $i;?></th>
-      <td><a href="client_details.php?user=<?php echo urlencode($uId);?>;"><?php echo $result['uName'];?></a></td>
+      <td><?php echo $result['uName'];?></td>
       <td><?php echo $result['email'];?></td>
       <td><?php echo $result['company'];?></td>
        <td><?php echo $result['contact'];?></td>
@@ -120,12 +131,12 @@
         $total_rows = mysqli_num_rows($result);
         $total_pages = ceil($total_rows/$per_page);
 
-          echo "<span class='pagination' style='margin-left:482px;'><a href='clientlist.php?page=1'>".'First Page'."</a>";
+          echo "<span class='pagination' style='margin-left:482px;'><a href='totallist.php?page=1'>".'First Page'."</a>";
           for ($i=1; $i <=$total_pages ; $i++) { 
             echo "<a href='index.php?page=".$i."'>".$i."</a>";
           };
 
-         echo "<a href='clientlist.php?page=$total_pages'>".'last Page'."</a></span>"?>
+         echo "<a href='totallist.php?page=$total_pages'>".'last Page'."</a></span>"?>
          </div>
     </div>
     <!-- /#wrapper -->

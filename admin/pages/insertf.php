@@ -76,21 +76,21 @@ $time = date("H:i:s",$timestamp);
 								 <div class="form-group row">
 								  <label for="inputEmail3" class="col-md-3 col-form-label">Select Client:</label>
 								  <div class="col-md-9">
-								  <select class="form-control" id="sel1" name="client">
-							<option></option>
+								  <input type="text" name="client" class="form-control" placeholder="Enter Client Email">
+							</div>
 							<?php
                             
-                            $getAll = $post->getAllclient();
-                            if ($getAll) {
-                                while ($result = $getAll->fetch_assoc()) {
+                            // $getAll = $post->getAllclient();
+                            // if ($getAll) {
+                            //     while ($result = $getAll->fetch_assoc()) {
                              
                        		 ?>
-								    <option value="<?php echo $result['regId']?>"><?php echo $result['email']?></option>
+								    <!-- <option value="<?php //echo $result['regId']?>"><?php //echo $result['email']?></option> --> 
 								    
-							<?php } } ?>
-								  </select>
+							<?php// } } ?>
+								 
 								  </div>
-								</div> 
+								
 
 								<div class="form-group row">
 									<label for="inputEmail3" class="col-md-3 col-form-label">Select files:</label>

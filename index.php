@@ -6,6 +6,16 @@
 $fm = new Format();
 ?>
 
+ <?php 
+    $per_page = 10;
+    if (isset($_GET["page"])) {
+      $page = $_GET["page"];
+    }else{
+      $page=1;
+    }
+    $start_form = ($page-1)*$per_page;
+  ?>
+
 <div class="container">
       <div class="row">
       
@@ -35,7 +45,7 @@ $fm = new Format();
           <div class="post-preview">
             
               <h2 class="post-title">
-               <?php echo $data['title'] ; ?></a>
+               <?php echo $data['title'] ; ?>
               </h2>
               <p class="post-meta" style="color:black;"> 
               Date: <?php echo $data['datee'] ; ?> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; By: <?php echo $data['author'] ; ?> </p> 
@@ -53,14 +63,30 @@ $fm = new Format();
           </div>
           <?php } } ?>
 <br/><br/> <br/><br/>
+   <div class="row">
+ <?php 
+        $db = new Database();
+        $query = "SELECT * FROM tbl_post ";
+        $result = $db->select($query);
+        $total_rows = mysqli_num_rows($result);
+        $total_pages = ceil($total_rows/$per_page);
+
+          echo "<span class='pagination' style='margin-left:482px;'><a href='index.php?page=1'>".'First Page'."</a>";
+          for ($i=1; $i <=$total_pages ; $i++) { 
+            echo "<a href='index.php?page=".$i."'>".$i."</a>";
+          };
+
+         echo "<a href='index.php?page=$total_pages'>".'last Page'."</a></span>"?>
+         </div>
           </div>
 
           <hr>
 
           
-          <hr>
-          <!-- Pager -->
          
+          <!-- Pager -->
+      
+    </div>
              
         </div>
 
@@ -77,6 +103,6 @@ $fm = new Format();
       
     </div>
 </div>
-    </div>
+
 
 <?php include 'footer.php' ?>

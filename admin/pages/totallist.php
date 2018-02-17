@@ -17,12 +17,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Dashboard</h1>
+                    
+                       
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
 
-            <div class="row">
+            <div class="row" style="margin-top: 20px">
 <table class="table">
   <thead>
     <tr>
@@ -49,7 +51,7 @@
     ?>
     <tr>
       <th scope="row"><?php echo $i;?></th>
-      <td><a href="client_details.php?user=<?php echo urlencode($uId);?>;"><?php echo $result['uName'];?></a></td>
+      <td><?php echo $result['uName'];?></td>
       <td><?php echo $result['email'];?></td>
       <td><?php echo $result['company'];?></td>
        <td><?php echo $result['contact'];?></td>
@@ -120,12 +122,12 @@
         $total_rows = mysqli_num_rows($result);
         $total_pages = ceil($total_rows/$per_page);
 
-          echo "<span class='pagination' style='margin-left:482px;'><a href='clientlist.php?page=1'>".'First Page'."</a>";
+          echo "<span class='pagination' style='margin-left:482px;'><a href='totallist.php?page=1'>".'First Page'."</a>";
           for ($i=1; $i <=$total_pages ; $i++) { 
             echo "<a href='index.php?page=".$i."'>".$i."</a>";
           };
 
-         echo "<a href='clientlist.php?page=$total_pages'>".'last Page'."</a></span>"?>
+         echo "<a href='totallist.php?page=$total_pages'>".'last Page'."</a></span>"?>
          </div>
     </div>
     <!-- /#wrapper -->

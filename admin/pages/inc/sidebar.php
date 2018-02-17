@@ -1,7 +1,7 @@
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
-                        <li class="sidebar-search">
+                      <!--   <li class="sidebar-search">
                             <div class="input-group custom-search-form">
                                 <input type="text" class="form-control" placeholder="Search...">
                                 <span class="input-group-btn">
@@ -10,8 +10,8 @@
                                 </button>
                             </span>
                             </div>
-                            <!-- /input-group -->
-                        </li>
+                            
+                        </li> -->
                         <li>
                             <a href="index.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
@@ -66,15 +66,18 @@
                                     <a href="insertf.php">Insert Files</a>
                                 </li>
                                  <li>
-                                    <a href="clientlist.php">Client List</a>
+                                    <a href="clientlist.php">Client List for Assign Files</a>
                                 </li>
                                 <li>
                                     <a href="commonFiles.php">Upload Common Files</a>
                                 </li>
+                                <li>
+                                    <a href="totallist.php">Total Client List</a>
+                                </li>
                                 </ul>
                                 </li>
-                         <li>
-                            <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>  P-Blasting<span class="fa arrow"></span></a>
+                        <li>
+                         <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>  P-Blasting<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="ymail.php">Inbox</a>
@@ -84,16 +87,17 @@
                                 </li>   
                                 <li>
                                     <a href="sblast.php">Start Blasting</a>
-                                </li>      
+                                </li>  
+
                                 
                             </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
+                            <!-- /.nav-second-level 
+                        </li>  -->
                         <!-- <li>
                             <a href="tables.php"><i class="fa fa-table fa-fw"></i> Tables</a>
                         </li> -->
                         
-                        
+                        </li>
                         
                         
                     </ul>

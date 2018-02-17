@@ -26,6 +26,7 @@
     <link href="../dist/css/mail.css" rel="stylesheet">
 
     <link href="../dist/css/demo.css" rel="stylesheet">
+       <link href="../dist/css/pagination.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
@@ -85,7 +86,20 @@ setInterval(GetClock,1000);
 
             <ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown">
+                                   
                    
+                    <form action="search.php" method="get" target="_blank">
+                            <div class="input-group custom-search-form" style="margin-bottom: -13px;margin-right: 123px;">
+                                <input type="text" name="search" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default"  type="submit" name="submit" style="color: #826F9E">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                            
+                          </form>  
+                       
+                </div>
                     <!-- /.dropdown-messages -->
                 </li>
                 <!-- /.dropdown -->

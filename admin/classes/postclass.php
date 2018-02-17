@@ -130,7 +130,7 @@ public function getdate($id){
 			    	 $result = $this->db->insert($query);
 
 			    	 if ($result) {
-			    	 	$msg = "<span>Post Upload complete</span>";
+			    	 	$msg = "<span style='color:green;'>Post Upload complete</span>";
 			    	 	return $msg;
 			    	 }else{
 			    	 	$msg = "<span>Post Upload Not complete</span>";
@@ -143,6 +143,11 @@ public function getdate($id){
 
 public function getAllclient(){
 		$query = "SELECT * FROM tbl_createuser";
+		$result = $this->db->select($query);
+		return $result;
+	}
+	public function getAllclientsearch($search){
+		$query = "SELECT * FROM tbl_createuser WHERE email LIKE '%$search%' OR cName LIKE '%$search%' OR company LIKE '%$search%' OR contact LIKE '%$search%'";
 		$result = $this->db->select($query);
 		return $result;
 	}
