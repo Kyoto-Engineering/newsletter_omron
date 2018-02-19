@@ -77,7 +77,7 @@ $time = date("H:i:s",$timestamp);
 								<div class="form-group row">
 									<label  class="col-md-3 col-form-label">Client Name:</label>
 									<div class="col-md-9">
-										<?php echo $value['uName']  ?>
+										<?php echo $value['cName']  ?>
 									</div>
 								</div>
 <?php } } ?>

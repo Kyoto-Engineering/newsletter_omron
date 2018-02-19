@@ -49,7 +49,7 @@
     ?>
     <tr>
       <th scope="row"><?php echo $i;?></th>
-      <td><a href="client_details.php?user=<?php echo urlencode($uId);?>;"><?php echo $result['uName'];?></a></td>
+      <td><a href="client_details.php?user=<?php echo urlencode($uId);?>;"><?php echo $result['cName'];?></a></td>
       <td><?php echo $result['email'];?></td>
       <td><?php echo $result['company'];?></td>
        <td><?php echo $result['contact'];?></td>

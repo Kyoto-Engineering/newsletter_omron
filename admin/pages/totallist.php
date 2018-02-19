@@ -51,7 +51,7 @@
     ?>
     <tr>
       <th scope="row"><?php echo $i;?></th>
-      <td><?php echo $result['uName'];?></td>
+      <td><?php echo $result['cName'];?></td>
       <td><?php echo $result['email'];?></td>
       <td><?php echo $result['company'];?></td>
        <td><?php echo $result['contact'];?></td>

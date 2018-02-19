@@ -19,13 +19,13 @@ class createUser
 	}
 
     public function userRegistration($data){
-		$uName  = $this->fm->validation($data['uName']);
+	//	$uName  = $this->fm->validation($data['uName']);
 		$cName  = $this->fm->validation($data['cName']);
 		$company = $this->fm->validation($data['company']);
 		$email = $this->fm->validation($data['email']);
 		$contact = $this->fm->validation($data['contact']);
 
-		$uName     = mysqli_real_escape_string($this->db->link, $uName);
+	//	$uName     = mysqli_real_escape_string($this->db->link, $uName);
 		$cName     = mysqli_real_escape_string($this->db->link, $cName);
 		$company      = mysqli_real_escape_string($this->db->link, $company);
 		$email     = mysqli_real_escape_string($this->db->link, $email);
@@ -33,7 +33,7 @@ class createUser
 	
 	
 
-		if ($uName == "" || $cName == "" || $company== "" || $email == "" || $contact == ""  ) {
+		if ($cName == "" || $company== "" || $email == "" || $contact == ""  ) {
 			
 			$msg = "<span style='color:red'>Field Must Not Be Empty!!</span>";
 			return $msg;
@@ -51,7 +51,7 @@ class createUser
 			
 					
 				
-						$query = "INSERT INTO tbl_createuser(uName, cName, company, email, contact) VALUES('$uName', '$cName', '$company', '$email', '$contact')";
+						$query = "INSERT INTO tbl_createuser(cName, company, email, contact) VALUES('$cName', '$company', '$email', '$contact')";
 	    	 			$inserted_row = $this->db->insert($query);
 
 						if($inserted_row){

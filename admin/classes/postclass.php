@@ -129,7 +129,7 @@ class Post
 		}
 }
 		public function getAllpost(){
-		$query = "SELECT * FROM tbl_post ORDER BY id DESC";
+		$query = "SELECT * FROM tbl_post ORDER BY id DESC LIMIT 5";
 		$result = $this->db->select($query);
 		return $result;
 	}

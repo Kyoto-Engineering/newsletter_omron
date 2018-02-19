@@ -6,7 +6,7 @@
 $fm = new Format();
 ?>
 
- <?php 
+<?php 
     $per_page = 10;
     if (isset($_GET["page"])) {
       $page = $_GET["page"];
@@ -45,7 +45,7 @@ $fm = new Format();
           <div class="post-preview">
             
               <h2 class="post-title">
-               <?php echo $data['title'] ; ?>
+               <?php echo $data['title'] ; ?></a>
               </h2>
               <p class="post-meta" style="color:black;"> 
               Date: <?php echo $data['datee'] ; ?> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; By: <?php echo $data['author'] ; ?> </p> 
@@ -63,7 +63,8 @@ $fm = new Format();
           </div>
           <?php } } ?>
 <br/><br/> <br/><br/>
-   <div class="row">
+
+ <div class="row">
  <?php 
         $db = new Database();
         $query = "SELECT * FROM tbl_post ";
@@ -78,15 +79,15 @@ $fm = new Format();
 
          echo "<a href='index.php?page=$total_pages'>".'last Page'."</a></span>"?>
          </div>
+
           </div>
 
           <hr>
 
           
-         
+          <hr>
           <!-- Pager -->
-      
-    </div>
+         
              
         </div>
 
@@ -103,6 +104,6 @@ $fm = new Format();
       
     </div>
 </div>
-
+    </div>
 
 <?php include 'footer.php' ?>

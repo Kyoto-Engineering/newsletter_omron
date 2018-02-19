@@ -1,10 +1,10 @@
-<?php include 'header.php' ?>
+  <?php include 'header.php' ?>
 
-<?php include 'navbar.php' ?>
-<?php include "admin/classes/postclass.php";?>
-<head>
+  <?php include 'navbar.php' ?>
+  <?php include "admin/classes/postclass.php";?>
+  <head>
 
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="style.css">
@@ -33,55 +33,57 @@ padding-bottom:20px;
        right:20%;
         top: 0
 
-} */
+      } */
     </style>
 
- 
-
-</head>
- <div class="container">
-        <div class="row">
-          
-          <?php
-                    if(!isset($_GET['id']) || $_GET['id']==NUll){
-            echo "<script>window.location = 'index.php';</script>";
-            }else{
-                $id = preg_replace('/[^-a-zA-Z0-9_]/', '', $_GET['id']);
-            }
-
-?>
 
 
- <?php 
-                $post = new Post();
-                $getalldate = $post->getdate($id);
-                if ($getalldate) {
-                    while ($data = $getalldate->fetch_assoc()) {
-                   
-            ?>
-            
-           
-            <div class="col-md-4">
-        <img src="admin/pages/<?php echo $data['image'];?>" alt="" height="auto" width="350" style="margin-top: 70px"  />
-        </div>
+  </head>
+  <div class="container">
+    <div class="row">
+
+      <?php
+      if(!isset($_GET['id']) || $_GET['id']==NUll){
+        echo "<script>window.location = 'index.php';</script>";
+      }else{
+        $id = preg_replace('/[^-a-zA-Z0-9_]/', '', $_GET['id']);
+      }
+
+      ?>
+
+
+      <?php 
+      $post = new Post();
+      $getalldate = $post->getdate($id);
+      if ($getalldate) {
+        while ($data = $getalldate->fetch_assoc()) {
+
+          ?>
+
+
+          <div class="col-md-4">
+            <img src="admin/pages/<?php echo $data['image'];?>" alt="" height="auto" width="350" style="margin-top: 70px"  />
+            <img src="admin/pages/<?php echo $data['img'];?>" alt="" height="auto" width="350" style="margin-top: 70px"  />
+          </div>
           <div class="col-md-7" style="text-align: justify">
-         
 
- 
- 
-           
+
+
+
+
             <h3 class="section-heading"><?php echo $data['title'] ?></h3>
             <p class="post-meta"> 
               Date: <?php echo $data['datee'] ; ?> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; By: <?php echo $data['author'] ; ?> </p> 
-            <p> <?php echo $data['description']?></p>
+              <p> <?php echo $data['description']?></p>
+              <p> <?php echo $data['des']?></p>
 
-            
-        
-          
 
-            
-          </div>
-              <?php } } ?>
+
+
+
+
+            </div>
+            <?php } } ?>
 
             
           </div>

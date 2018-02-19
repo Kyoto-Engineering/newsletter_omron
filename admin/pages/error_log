@@ -113,3 +113,36 @@
 [11-Feb-2018 10:02:07 UTC] PHP Warning:  include_once(../lib/Database.php): failed to open stream: No such file or directory in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
 [11-Feb-2018 10:02:07 UTC] PHP Warning:  include_once(): Failed opening '../lib/Database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 2
 [11-Feb-2018 10:02:07 UTC] PHP Fatal error:  Class 'Database' not found in /home2/kealcom/newsletter.keal.com.bd/admin/classes/reglog.php on line 12
+[15-Feb-2018 11:09:47 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/kealcom/newsletter.keal.com.bd/admin/lib/session.php on line 46
+[18-Feb-2018 15:40:23 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 15:43:38 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 15:44:12 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 15:44:12 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 15:44:53 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 15:45:28 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 15:46:50 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 15:47:02 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 16:01:41 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 16:01:54 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 16:03:32 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 16:04:02 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 16:04:39 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 16:07:20 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 16:07:31 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 16:33:30 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 16:33:53 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 16:36:13 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 16:36:48 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 16:37:06 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 17:39:19 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[18-Feb-2018 17:45:29 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[19-Feb-2018 14:11:08 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[19-Feb-2018 14:28:03 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[19-Feb-2018 14:33:45 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[19-Feb-2018 16:20:00 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[19-Feb-2018 16:22:14 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[19-Feb-2018 16:22:41 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[19-Feb-2018 16:22:44 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[19-Feb-2018 16:22:45 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[19-Feb-2018 16:22:50 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[19-Feb-2018 16:37:48 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91

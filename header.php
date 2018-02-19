@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,11 +10,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Newsletter kyoto</title>
+    <title>Newsletter Kyoto</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.png" />
+        <link rel="shortcut icon" href="img/favicon.png" />
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -24,7 +23,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
-     <link href="css/pagination.css" rel="stylesheet">
+    <link href="css/pagination.css" rel="stylesheet">
 
   </head>
 

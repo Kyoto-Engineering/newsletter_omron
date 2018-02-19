@@ -37,12 +37,12 @@
                         </div>
                         <div class="col-lg-8">
                             <form action="" method="post" enctype="multipart/form-data">
-                            <div class="form-group row">
-                                    <label  class="col-md-3 col-form-label">User Id/ User Name:</label>
-                                    <div class="col-md-9">
-                                        <input type="text" name="uName" class="form-control" placeholder="User Id/ User Name">
-                                    </div>
-                                </div>
+                            <!--<div class="form-group row">-->
+                            <!--        <label  class="col-md-3 col-form-label">User Id/ User Name:</label>-->
+                            <!--        <div class="col-md-9">-->
+                            <!--            <input type="text" name="uName" class="form-control" placeholder="User Id/ User Name">-->
+                            <!--        </div>-->
+                            <!--    </div>-->
                                 <div class="form-group row">
                                     <label  class="col-md-3 col-form-label">Client Name:</label>
                                     <div class="col-md-9">
