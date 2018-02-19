@@ -15,13 +15,13 @@ class MethodsClass
 		$this->fm = new Format();
 	}
 
-	public function getAllclientfile($uId){
-	 	$query = "SELECT * FROM tbl_files WHERE client = '$uId'";
+	public function getAllclientfile($email){
+	 	$query = "SELECT * FROM tbl_files WHERE client = '$email'";
 	 	$result = $this->db->select($query);
 	 	return $result;
 	 }
-	 public function getAllcommonfile($uId){
-	 	$query = "SELECT * FROM tbl_assignfile WHERE client = '$uId'";
+	 public function getAllcommonfile($email){
+	 	$query = "SELECT * FROM tbl_assignfile WHERE client = '$email'";
 	 	$result = $this->db->select($query);
 	 	return $result;
 	 }

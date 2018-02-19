@@ -14,7 +14,7 @@
     <meta name="author" content="">
 
     <title>Admin Panel</title>
-
+<link rel="shortcut icon" href="img/favicon.png" />
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 

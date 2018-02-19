@@ -17,6 +17,7 @@ $time = date("H:i:s",$timestamp);
 
 	if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['submit'])) {
 		$addInsert = $post->pdfInsert($_POST, $_FILES, $date, $time);
+		// $addtwoInsert = $post->inserttwopost($_POST, $_FILES, $date, $time);
 	}
 ?>
 

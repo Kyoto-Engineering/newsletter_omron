@@ -53,7 +53,7 @@ $time = date("H:i:s",$timestamp);
 									</div>
 								</div>
 								<div class="form-group row">
-									<label class="col-md-3 col-form-label">Post Details:</label>
+									<label class="col-md-3 col-form-label">Text1:</label>
 									<div class="col-md-9">
 									<textarea name="description" class="form-control" id="" cols="30" rows="5" placeholder="Enter Post Details"></textarea>
 									</div>
@@ -67,11 +67,35 @@ $time = date("H:i:s",$timestamp);
 									</div>
 								</div>
 								<div class="form-group row">
-									<label for="inputEmail3" class="col-md-3 col-form-label">Select Image:</label>
+									<label class="col-md-3 col-form-label">Text2:</label>
+									<div class="col-md-9">
+									<textarea name="des" class="form-control" id="" cols="30" rows="5" placeholder="Enter Post Details"></textarea>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label  class="col-md-3 col-form-label">Effetive Date:</label>
+									<div class="col-md-9">
+										<input type="date" name="edate" class="form-control" placeholder="Enter Effective Date">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label for="inputEmail3" class="col-md-3 col-form-label">Select Image1:</label>
 									<div class="col-md-9">
 										<input type="file" name="image" class="form-control-file" id="">
 									</div>
 								</div>
+
+								
+
+								<div class="form-group row">
+									<label for="inputEmail3" class="col-md-3 col-form-label">Select Image2:</label>
+									<div class="col-md-9">
+										<input type="file" name="img" class="form-control-file" id="">
+									</div>
+								</div>
+
+								
 
 								<div class="form-group row">
 								<div class="col-md-4"></div>

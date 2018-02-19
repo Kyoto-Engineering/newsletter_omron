@@ -5,6 +5,7 @@
 <?php include_once "classes/mclass.php";?>
 <?php 
 	$uId = Session::get('userId');
+	$email = Session::get('email');
 	$obj = new MethodsClass();
 ?>
 <!DOCTYPE HTML>
@@ -15,6 +16,7 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="images/favicon.png" />
 		
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
@@ -23,6 +25,7 @@
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
+
 		</noscript>
 		
 	</head>
@@ -68,11 +71,12 @@
 				</header>
 				<div class="row">
 					<?php 
-					 $getAll = $obj->getAllclientfile($uId);
+					 $getAll = $obj->getAllclientfile($email);
 				     if ($getAll) {
 				    while ($result = $getAll->fetch_assoc()) {
 				    
 					?>
+
 					<div class="3u">
 						<section>
 							<a href="../admin/pages/<?php echo $result['pdf']?>" class="image full"><img src="images/pdfIcon2.png" alt="" /></a>

@@ -18,16 +18,68 @@ class Post
 		$this->fm = new Formate();
 	}
 
+	// public function inserttwopost($data, $file, $date, $time){
+	// 	$title = $this->fm->validation($data['title']);
+	// 	$description = $this->fm->validation($data['description']);
+ //        $author = $this->fm->validation($data['author']);
+ //        $des = $this->fm->validation($data['des']);
+ //        $edate = $this->fm->validation($data['edate']);
+
+ //        $title = mysqli_real_escape_string($this->db->link, $title);
+	// 	$description = mysqli_real_escape_string($this->db->link, $description);
+	// 	$author = mysqli_real_escape_string($this->db->link, $author);
+	// 	$des = mysqli_real_escape_string($this->db->link, $des);
+		
+	// 	$edate = mysqli_real_escape_string($this->db->link, $edate);
+	
+	// 	if (empty($title) || empty($description) || empty($author) ) {
+	// 		$logmsg = "<span style='color:red'>Field Must Not be Empty!!</span>";
+	// 		return $logmsg;
+	// 	}
+
+
+	// 	 $permited  = array('jpg', 'jpeg', 'png', 'gif');
+
+	// 	 $file_name = $file['image']['name'];
+	// 	 $file_size = $file['image']['size'];
+	// 	 $file_temp = $file['image']['tmp_name'];
+
+	// 	 $div            = explode('.', $file_name);
+	// 	 $file_ext       = strtolower(end($div));
+	// 	 $unique_image   = substr(md5(time()), 0, 10).'.'.$file_ext;
+	// 	 $uploaded_vid = "uploads/".$unique_image;
+
+	// 	  if ($uploaded_vid == "" ) {
+		    	 
+	// 	    	 $errmsg = "<span style='color:red'>Browse Your Picture First And Submit</span>";
+	// 	    	 return $errmsg;
+
+	// 	    	}elseif (in_array($file_ext, $permited, $file_extt ) === false) {
+
+	// 	     	echo "<span style='color:red'>You can upload only:-".implode(', ', $permited, $per)."</span>";
+
+ //    			}else{
+
+
+
+
+	// }
+
 	public function postInsert($data, $file, $date, $day, $time){
 		$title = $this->fm->validation($data['title']);
 		$description = $this->fm->validation($data['description']);
         $author = $this->fm->validation($data['author']);
+         $des = $this->fm->validation($data['des']);
+          $edate = $this->fm->validation($data['edate']);
        
 
 
 		$title = mysqli_real_escape_string($this->db->link, $title);
 		$description = mysqli_real_escape_string($this->db->link, $description);
 		$author = mysqli_real_escape_string($this->db->link, $author);
+		$des = mysqli_real_escape_string($this->db->link, $des);
+		
+		$edate = mysqli_real_escape_string($this->db->link, $edate);
 
 		if (empty($title) || empty($description) || empty($author) ) {
 			$logmsg = "<span style='color:red'>Field Must Not be Empty!!</span>";
@@ -43,20 +95,28 @@ class Post
 		      $unique_image   = substr(md5(time()), 0, 10).'.'.$file_ext;
 		      $uploaded_vid = "uploads/".$unique_image;
 
+		 $file_namee = $file['img']['name'];
+		 $file_sizee = $file['img']['size'];
+		 $file_tempp = $file['img']['tmp_name'];
 
+		      $div            = explode('.', $file_namee);
+		      $file_extt       = strtolower(end($div));
+		      $unique_img   = substr(md5(time()), 0, 10).'.'.$file_extt;
+		      $uploaded_img = "upload/".$unique_img;
 
-		     if ($uploaded_vid == "") {
+		     if ($uploaded_vid == "" ) {
 		    	 
 		    	 $errmsg = "<span style='color:red'>Browse Your Picture First And Submit</span>";
 		    	 return $errmsg;
 
-		    	}elseif (in_array($file_ext, $permited) === false) {
+		    	}elseif (in_array($file_ext, $permited, $file_extt ) === false) {
 
-		     	echo "<span style='color:red'>You can upload only:-".implode(', ', $permited)."</span>";
+		     	echo "<span style='color:red'>You can upload only:-".implode(', ', $permited, $per)."</span>";
 
     			}else{
     				 move_uploaded_file($file_temp, $uploaded_vid);
-			 		$query = "INSERT INTO tbl_post(title, description, author, datee, day, timee, image) VALUES('$title', '$description', '$author', '$date', '$day', '$time', '$uploaded_vid')";
+    				 move_uploaded_file($file_tempp, $uploaded_img);
+			 		$query = "INSERT INTO tbl_post(title, description, author, des, edate, datee, day, timee, image, img) VALUES('$title', '$description', '$author', '$des', '$edate' , '$date', '$day', '$time', '$uploaded_vid' , '$uploaded_img')";
 			    	 $result = $this->db->insert($query);
 
 			    	 if ($result) {

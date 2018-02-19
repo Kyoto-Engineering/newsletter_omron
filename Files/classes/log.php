@@ -36,6 +36,7 @@ public function userLogin($email, $contact){
 				Session::set("login", true);
 				Session::set("userId",   $value['regId']);
 				Session::set("userName", $value['userName']);
+				Session::set("email", $value['email']);
 				
 				header("Location:index.php");
 			}else{
