@@ -122,7 +122,7 @@
 
           echo "<span class='pagination' style='margin-left:482px;'><a href='clientlist.php?page=1'>".'First Page'."</a>";
           for ($i=1; $i <=$total_pages ; $i++) { 
-            echo "<a href='index.php?page=".$i."'>".$i."</a>";
+            echo "<a href='clientlist.php?page=".$i."'>".$i."</a>";
           };
 
          echo "<a href='clientlist.php?page=$total_pages'>".'last Page'."</a></span>"?>

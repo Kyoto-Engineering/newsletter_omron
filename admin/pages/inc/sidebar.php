@@ -74,6 +74,9 @@
                                 <li>
                                     <a href="totallist.php">Total Client List</a>
                                 </li>
+                                <li>
+                                    <a href="userlog.php">See User Log</a>
+                                </li>
                                 </ul>
                                 </li>
                         <li>

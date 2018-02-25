@@ -307,5 +307,18 @@ public function getAllcommonfiles(){
 		$result = $this->db->select($query);
 		return $result;
 	}
-	
+	public function getAlluserlog(){
+		$query = "SELECT * FROM tbl_logrecord ";
+		$result = $this->db->select($query);
+		return $result;
+	}
+	public function getAlluserinfo(){
+			$query = "SELECT p.*, c.cName, c.company, c.email,c.contact
+			FROM tbl_logrecord as p, tbl_createuser as c
+			WHERE p.userId = c.regId ";
+			/*$query="SELECT * FROM tbl_store_job WHERE JId='$jId'";*/
+			$result=$this->db->select($query);
+			return $result;
+
+		}
 } ?>
