@@ -56,7 +56,7 @@ padding-bottom:20px;
 
           ?>
           <div class="col-md-4">
-            <img src="admin/pages/<?php echo $data['image'];?>" alt="" height="auto" width="350" style="margin-top: 70px"  />
+            <img src="admin/pages/<?php echo $data['image'];?>" alt="" height="auto" width="300" style="margin-top: 70px"  />
 
 <!-- 2nd Image Field -->
 
@@ -70,7 +70,7 @@ padding-bottom:20px;
               Date: <?php echo $data['edate'] ; ?> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; By: <?php echo $data['author'] ; ?> </p> 
               <p> <?php echo $data['description']?></p>
               <p> <?php echo $data['des']?></p>
-              <a href="<?php echo $data['url']?>">
+              <a href="<?php echo $data['url']?>" style="color:blue">
               <p><?php echo $data['url']?></p></a>
 
 <!-- 2nd Text Field -->
@@ -84,7 +84,7 @@ padding-bottom:20px;
         
         <div class="row">
             <div class="col-md-4">
-            <img src="admin/pages/<?php echo $data['img'];?>" alt="" height="auto" width="350" style="margin-top: 70px"  />
+            <img src="admin/pages/<?php echo $data['img'];?>" alt="" height="auto" width="300" style="margin-top: 70px"  />
             </div>
             <?php
             if($data['vidio']){
