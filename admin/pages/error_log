@@ -227,3 +227,11 @@
 [24-Feb-2018 06:01:15 UTC] PHP Notice:  Undefined variable: i in /home2/kealcom/newsletter.keal.com.bd/admin/pages/userlog.php on line 54
 [24-Feb-2018 06:05:07 UTC] PHP Notice:  Undefined variable: result in /home2/kealcom/newsletter.keal.com.bd/admin/pages/userlog.php on line 51
 [24-Feb-2018 06:06:11 UTC] PHP Notice:  Undefined variable: result in /home2/kealcom/newsletter.keal.com.bd/admin/pages/userlog.php on line 51
+[26-Feb-2018 10:46:16 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[26-Feb-2018 10:47:18 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[26-Feb-2018 12:51:09 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[26-Feb-2018 13:01:59 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[26-Feb-2018 13:03:16 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[26-Feb-2018 13:05:15 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[26-Feb-2018 14:08:51 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91
+[26-Feb-2018 14:09:47 Asia/Dhaka] PHP Notice:  Use of undefined constant php - assumed 'php' in /home2/kealcom/newsletter.keal.com.bd/admin/pages/insertf.php on line 91

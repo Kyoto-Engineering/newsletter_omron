@@ -73,10 +73,12 @@ padding-bottom:20px;
 
             <h3 class="section-heading"><?php echo $data['title'] ?></h3>
             <p class="post-meta"> 
-              Date: <?php echo $data['datee'] ; ?> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; By: <?php echo $data['author'] ; ?> </p> 
+              Date: <?php echo $data['edate'] ; ?> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; By: <?php echo $data['author'] ; ?> </p> 
               <p> <?php echo $data['description']?></p>
+              <a href="<?php echo $data['url']?>">
+              <p><?php echo $data['url']?></p></a>
               <p> <?php echo $data['des']?></p>
-
+             
 
 
 

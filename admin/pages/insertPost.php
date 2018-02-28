@@ -79,6 +79,12 @@ $time = date("H:i:s",$timestamp);
 										<input type="date" name="edate" class="form-control" placeholder="Enter Effective Date">
 									</div>
 								</div>
+											<div class="form-group row">
+									<label class="col-md-3 col-form-label">URL:</label>
+									<div class="col-md-9">
+										<input type="text" name="url" class="form-control" placeholder="Enter url ">
+									</div>
+								</div>
 								<div class="form-group row">
 									<label for="inputEmail3" class="col-md-3 col-form-label">Select Image1:</label>
 									<div class="col-md-9">
@@ -92,6 +98,13 @@ $time = date("H:i:s",$timestamp);
 									<label for="inputEmail3" class="col-md-3 col-form-label">Select Image2:</label>
 									<div class="col-md-9">
 										<input type="file" name="img" class="form-control-file" id="">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label for="inputEmail3" class="col-md-3 col-form-label">Select Vidio:</label>
+									<div class="col-md-9">
+										<input type="file" name="vidio" class="form-control-file" id="">
 									</div>
 								</div>
 

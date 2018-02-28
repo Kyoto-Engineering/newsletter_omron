@@ -71,6 +71,7 @@ class Post
         $author = $this->fm->validation($data['author']);
          $des = $this->fm->validation($data['des']);
           $edate = $this->fm->validation($data['edate']);
+          $url = $this->fm->validation($data['url']);
        
 
 
@@ -80,8 +81,8 @@ class Post
 		$des = mysqli_real_escape_string($this->db->link, $des);
 		
 		$edate = mysqli_real_escape_string($this->db->link, $edate);
-
-		if (empty($title) || empty($description) || empty($author) ) {
+        $url = mysqli_real_escape_string($this->db->link, $url);
+		if (empty($title) || empty($description) || empty($author) || empty($edate) ) {
 			$logmsg = "<span style='color:red'>Field Must Not be Empty!!</span>";
 			return $logmsg;
 		}
@@ -104,6 +105,25 @@ class Post
 		      $unique_img   = substr(md5(time()), 0, 10).'.'.$file_extt;
 		      $uploaded_img = "upload/".$unique_img;
 
+
+		  $per  = array('mp4', 'avi', 'mov', 'flv');
+		 $file_nam = $file['vidio']['name'];
+		 $file_siz = $file['vidio']['size'];
+		 $file_tem = $file['vidio']['tmp_name'];
+
+		      $div            = explode('.', $file_nam);
+		      $file_ex       = strtolower(end($div));
+		      $unique_vidio   = substr(md5(time()), 0, 10).'.'.$file_ex;
+		      $uploaded_vidio = "uploads/".$unique_vidio;
+
+
+		    if (in_array($file_ex, $per) === false) {
+
+		     	echo "<span style='color:red'>You can upload only:-".implode(', ', $per)."</span>";
+
+    			} else {
+			    	
+
 		     if ($uploaded_vid == "" ) {
 		    	 
 		    	 $errmsg = "<span style='color:red'>Browse Your Picture First And Submit</span>";
@@ -116,7 +136,8 @@ class Post
     			}else{
     				 move_uploaded_file($file_temp, $uploaded_vid);
     				 move_uploaded_file($file_tempp, $uploaded_img);
-			 		$query = "INSERT INTO tbl_post(title, description, author, des, edate, datee, day, timee, image, img) VALUES('$title', '$description', '$author', '$des', '$edate' , '$date', '$day', '$time', '$uploaded_vid' , '$uploaded_img')";
+    				 move_uploaded_file($file_tem, $uploaded_vidio);
+			 		$query = "INSERT INTO tbl_post(title, description, author, des, edate, url, datee, day, timee, image, img, vidio) VALUES('$title', '$description', '$author', '$des', '$edate' , '$url', '$date', '$day', '$time', '$uploaded_vid' , '$uploaded_img', '$uploaded_vidio')";
 			    	 $result = $this->db->insert($query);
 
 			    	 if ($result) {
@@ -127,6 +148,7 @@ class Post
 			    	 	return $msg;
 			    	 }
 		}
+}
 }
 		public function getAllpost(){
 		$query = "SELECT * FROM tbl_post ORDER BY id DESC LIMIT 5";
@@ -144,7 +166,7 @@ class Post
 		return $result;
 	}
 public function getdate($id){
-		$query = "SELECT * FROM tbl_post WHERE datee='$id'";
+		$query = "SELECT * FROM tbl_post WHERE edate='$id'";
 		$result = $this->db->select($query);
 		return $result;
 	}
